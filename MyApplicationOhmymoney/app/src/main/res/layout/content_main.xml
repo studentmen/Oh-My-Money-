@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.myapplicationohmymoney.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="308dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/gnew"
+        tools:layout_editor_absoluteY="473dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="303dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/new"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.508" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        app:srcCompat="@drawable/Picturenew"
+        tools:layout_editor_absoluteY="293dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.52" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="216dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="E-Mail"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#00CCFF"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+</android.support.constraint.ConstraintLayout>
